@@ -1,156 +1,63 @@
-📺 BrightTV Viewership Analytics – Case Study
+# 📺 BrightTV Viewership Analytics – Case Study
 
-📌 Project Overview
+## Overview
+This project analyses BrightTV user profiles and viewing session data to understand content consumption patterns and support subscription growth initiatives. The analysis was conducted to provide actionable insights for the Customer Value Management (CVM) team.
 
-- BrightTV aims to grow its subscription base in the current financial year.
-- This project analyzes user profiles and viewing session data to uncover consumption patterns and provide actionable insights to support the Customer Value Management (CVM) team.
-
-The analysis focuses on understanding user behavior, factors influencing content consumption, and strategies to increase engagement and subscriptions.
-
-🎯 Business Objective
-
+## Business Objectives
 - Identify user and usage trends on BrightTV
-
 - Understand factors influencing content consumption
+- Recommend strategies for low-consumption periods
+- Propose initiatives to grow the user base
 
-- Recommend content strategies for low-consumption periods
-
-- Propose initiatives to grow BrightTV’s user base
-
-📂 Dataset Description
-
+## Dataset Description
 The dataset consists of:
-
 - User profile data (subscriber information)
+- Viewing session data, where each record represents a single viewing session
+- Consumption measured at session level
+- All timestamps provided in UTC
 
-- Viewer transaction data, where:
-
-- Each record represents one viewing session
-
-- Consumption is measured per session
-
-- All timestamps are provided in UTC
-
-🛠 Data Preparation
-
-- Converted all timestamps from UTC to South African Time (UTC +2)
-
-- Created time-based features such as:
-
-- Time of day (Morning, Afternoon, Evening, Night)
-
-- Day of week
-
+## Data Preparation
+- Converted timestamps from UTC to South African Time (UTC +2)
+- Created time-based features (time of day and day of week)
 - Cleaned and validated session-level data
+- Aggregated sessions to analyse consumption trends
 
-- Aggregated sessions to analyze consumption trends
+## Tools & Technologies
+**Snowflake**
+- Data storage and querying
+- Filtering, aggregation, and time-based transformations
+- Efficient handling of large session-level datasets
 
-🧰 Tools & Technologies Used
-❄️ Snowflake
-- Used for data storage and querying
+**Power BI**
+- Data modelling and visualisation
+- Interactive dashboards analysing:
+  - Consumption by time of day
+  - User engagement trends
+  - High and low consumption periods
 
-Performed:
+**Canva**
+- Designed the final presentation
+- Communicated insights and recommendations clearly to stakeholders
 
-- Data extraction
-
-- Filtering and aggregation
-
-- Time-based transformations
-
-- Enabled efficient handling of large session-level datasets
-
-📊 Power BI
-
-- Used for data modeling, analysis, and visualization
-
-- Built interactive dashboards to analyze:
-
-- Consumption by time of day
-
-- User engagement trends
-
-- Low and high consumption periods
-
-- Enabled stakeholder-friendly insights for the CVM team
-
-🎨 Canva
-
-- Used to design the final presentation
-
-- Created clear, visually engaging slides for:
-
-- Executive insights
-
-- Key trends and recommendations
-
-- Improved storytelling and communication of findings
-
-📊 Key Insights
-1. User & Usage Trends
-
+## Key Insights
 - Viewership is highest in the Morning, followed by the Afternoon
+- Consumption declines into the Evening
+- Night shows the lowest engagement
+- Time of day is a key driver of content consumption behaviour
 
-- Consumption steadily declines into the Evening
-
-- Night has the lowest engagement
-
-- This indicates a strong time-of-day viewing pattern
-
-2. Factors Influencing Consumption
-
-- Time of day is a major driver of engagement
-
-- Users are more active during structured parts of the day
-
-- Lower engagement at night suggests competing priorities or fatigue
-
-📉 Low Consumption Periods – Content Recommendations
-
-- To increase consumption on low-engagement days or times:
-
-- Promote short-form and easily consumable content
-
+## Recommendations
+**Low-Consumption Periods**
+- Promote short-form, easily consumable content
 - Highlight trending and popular shows
-
-- Use personalised recommendations based on viewing history
-
+- Use personalised recommendations
 - Schedule notifications during peak engagement hours
 
-🚀 Recommendations to Grow BrightTV’s User Base
-- User Acquisition
-
-- Referral and incentive-based programs
-
+**User Growth & Retention**
+- Referral and incentive-based acquisition strategies
 - Free trials promoted during peak usage times
-
-- User Retention
-
 - Personalised content recommendations
-
 - Loyalty rewards for consistent viewing
+- Improved onboarding for new users
 
-- Improved onboarding experience for new users
-
-- Engagement Initiatives
-
-- Push notifications aligned with high-traffic periods
-
-- Targeted campaigns for low-consumption days
-
-✅ Key Takeaways
-
-- Consumption is strongly influenced by time-based behavior
-
-- Morning and Afternoon are critical engagement windows
-
-- Strategic content timing and personalization can:
-
-- Increase consumption
-
-- Improve retention
-
-- Support subscription growth
-
-📈 Conclusion
-
-By leveraging viewership analytics and user behavior insights, BrightTV can optimize content delivery, improve customer engagement, and achieve its subscription growth objectives for the financial year.
+## Conclusion
+The analysis shows that content consumption on BrightTV is strongly influenced by time-based behaviour. By optimising content timing, personalisation, and engagement strategies, BrightTV can improve user retention and support subscription growth.
